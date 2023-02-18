@@ -1,0 +1,29 @@
+.table-container {
+   display: flex; 
+   justify-content: center;
+}
+
+.table {
+ width: 80%;
+}
+
+.table th {
+  border-bottom: 1px solid #d4cab8;
+  padding: 10px;
+}
+
+.table tr:nth-child(2n+1) {
+  background: #f0e8d9;
+}
+
+.table tbody tr:last-child td {
+  border-top: 1px solid #d4cab8;
+  border-bottom: 1px solid #d4cab8;
+  background: #f0e8d9;
+  padding: 10px;
+}
+
+.loader {
+  padding: 60px;
+  font-size: 2em;
+}

@@ -1,0 +1,12 @@
+.filters-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filters {
+  padding: 30px;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
